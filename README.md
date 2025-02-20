@@ -2,6 +2,7 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
+ 
   <table class="table">
   <thead>
     <tr>
@@ -31,5 +32,6 @@
     </tr>
   </tbody>
 </table>
+
 </body>
 </html> 
