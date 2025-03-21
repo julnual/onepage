@@ -1,18 +1,61 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    
+  <title>Nutrition</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container mt-5">
-    <center><h2>Hi</h2></center>   
-</div>
+  <div class="container mt-5">
+    <center><h2>Hi</h2></center>
+    <br>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/7757/7757741.png" class="card-img-top d-block mx-auto" alt="Nutrition Icon">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Nutrition</h5>
+                    <p class="card-text">ระบบประเมินภาวะโภชนาการ</p>
+                    <a href="http://192.168.1.5/nutrition/index.php/member/login" class="btn btn-primary">รายละเอียดเพิ่มเติม</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/4850/4850909.png" class="card-img-top d-block mx-auto" alt="Nutrition Icon">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Nutrition</h5>
+                    <p class="card-text">สมัครใช้งาน</p>
+                    <a href="#" class="btn btn-primary">รายละเอียดเพิ่มเติม</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2328/2328966.png" class="card-img-top d-block mx-auto" alt="Nutrition Icon">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Nutrition</h5>
+                    <p class="card-text">Dashboard</p>
+                    <a href="https://lookerstudio.google.com/reporting/4b9207d7-ff47-462d-8616-7d8cfecaf7c0" class="btn btn-primary">รายละเอียดเพิ่มเติม</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="text-center">
+        <hr>
+    </div>
+    <div class="container mt-5">
+      <center><h2>ดูรายงาน Dashboard</h2></center>
+      <br>
+      <div class="text-center">
+        <!-- แทนที่ URL ใน src ด้วย URL iframe ที่คุณได้จาก Looker Studio -->
+        <iframe width="100%" height="600" src="https://lookerstudio.google.com/embed/reporting/4b9207d7-ff47-462d-8616-7d8cfecaf7c0/page/yIq5C" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
