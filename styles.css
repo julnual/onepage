@@ -1,0 +1,18 @@
+body {
+    background-color: #f0f0f0; /* สีพื้นหลังม่วงอ่อน */
+}
+
+.card {
+    width: 18rem; /* ขยายขนาดการ์ด */
+    margin-bottom: 20px; /* ระยะห่างระหว่างการ์ด */
+}
+
+.card-img-top {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.card-body {
+    background-color: #ffffff; /* สีพื้นหลังของการ์ด */
+    border-radius: 8px; /* มุมการ์ดโค้งมน */
+}
