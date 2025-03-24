@@ -1,18 +1,47 @@
 body {
-    background-color: #f0f0f0; /* สีพื้นหลังเทา */
+    font-family: 'Prompt', sans-serif; /* ฟอนต์หลัก */
+    background-color: #f0f0f0; /* สีพื้นหลังเทาอ่อน */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button {
+    font-family: 'Prompt', sans-serif; /* ใช้ฟอนต์ Prompt ทุกส่วนที่เป็นข้อความ */
 }
 
 .card {
-    width: 100%; /* ขยายขนาดการ์ด */
-    margin-bottom: 20px; /* ระยะห่างระหว่างการ์ด */
+    width: 100%; /* ให้ responsive ใน mobile */
+    max-width: 18rem; /* ขนาด card ไม่เกิน 18rem */
+    margin: 0 auto 20px auto; /* จัดกึ่งกลางและมีระยะห่างด้านล่าง */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เงาเล็กน้อยให้ดูนุ่มนวล */
+    border-radius: 12px; /* มุมโค้งมน */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* เพิ่มอนิเมชันตอน hover */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.15);
 }
 
 .card-img-top {
     width: 100px;
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
+    display: block;
 }
 
 .card-body {
     background-color: #ffffff; /* สีพื้นหลังของการ์ด */
-    border-radius: 8px; /* มุมการ์ดโค้งมน */
+    border-radius: 0 0 12px 12px; /* มุมล่างโค้งมน */
+    padding: 20px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #6f42c1; /* สีม่วงเข้ม */
+    border-color: #6f42c1;
+}
+
+.btn-primary:hover {
+    background-color: #5a35a0;
+    border-color: #5a35a0;
 }
